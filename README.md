@@ -33,8 +33,19 @@
 
 ![스크린샷 2021-12-25 오전 3 44 44](https://user-images.githubusercontent.com/61109660/147369203-27521d2e-f450-4313-86b6-18bdbfc6ca67.png)
 
+#### 2-2. 스프레드시트 아이디 추가
 
-#### 2-2. Xcode 파이썬 실행 스크립트 추가 
+본인이 구글 드라이브에 생성한 스프레드시트의 아이디를 추가하는 작업이 필요합니다.
+
+generate.py 파일의 gdoc_id로 선언된 부분에 url의 ~/d/ 뒷부분의 값을 넣어주시면 됩니다.
+
+<img width="758" alt="스크린샷 2021-12-26 오전 1 25 14" src="https://user-images.githubusercontent.com/61109660/147389313-aab35c53-0678-445b-b3a8-10e8a001142c.png">
+
+```python
+gdoc_id = "1WMnHk1brX7CR34hCN88cDnTDc4UgTAKh-qegwnPIqCU/edit#gid=0"
+```
+
+#### 2-3. Xcode 파이썬 실행 스크립트 추가 
 > [Build Phase] - [Run Script] 부분에 스크립트를 추가합니다.
 
 `ex`
