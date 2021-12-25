@@ -1,4 +1,4 @@
-# AutoGenerationNameSpace
+# AutoGenerationSwiftNameSpace
 🐮 내 맘대로 만드는 네임스페이스 자동 생성기(feat. python)
 
 > 👉 왜 이렇게 까지 해야해? 라는 의문이 들 수 있을 것 같습니다.  
